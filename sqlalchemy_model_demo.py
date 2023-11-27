@@ -1,3 +1,5 @@
+Base = declarative_base()
+
 class GenericUser(Base):
         __tablename__ = 'generic_user'
         email = Column(String, primary_key=True, index=True)
